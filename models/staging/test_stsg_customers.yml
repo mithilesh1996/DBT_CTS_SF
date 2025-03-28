@@ -1,0 +1,8 @@
+version: 2
+ 
+models:
+  - name: stg_customers
+    columns:
+      - name: customerid
+        tests:
+          - not_null
